@@ -1,0 +1,16 @@
+.friend__me {
+  display: flex;
+}
+
+.friend .me__content {
+  margin-left: 10px;
+}
+
+.friend .me__column {
+  display: flex;
+  align-items: center;
+}
+.friend .large-img {
+  width: 60px;
+  border-radius: 25px;
+}

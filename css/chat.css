@@ -1,0 +1,35 @@
+.main__chat {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.chat .chat__content,
+.friends__left-content {
+  margin-left: 10px;
+}
+
+.chat .chat__left,
+.chat__right {
+  display: flex;
+}
+
+.chat .chat__name,
+.chat__time {
+  padding-top: 5px;
+}
+
+.chat .chat__time {
+  opacity: 0.5;
+}
+
+.chat .chat__text {
+  margin-top: 5px;
+}
+
+.normal-img {
+  width: 50px;
+  border-radius: 20px;
+}

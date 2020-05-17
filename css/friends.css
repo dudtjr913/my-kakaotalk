@@ -1,0 +1,59 @@
+.friends {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid gray;
+}
+
+.friends-title {
+  padding-bottom: 10px;
+  font-size: 14px;
+}
+
+.friends .small-img {
+  width: 40px;
+  border-radius: 15px;
+}
+
+.friends .friends__column {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.friends .friends__left {
+  display: flex;
+  align-items: center;
+}
+
+.friends__left .friends-text {
+  padding-top: 5px;
+  font-size: 12px;
+}
+
+.friends__right {
+  border: 1.5px solid black;
+  padding: 5px 15px;
+  border-radius: 30px;
+}
+
+.friends__right .friends-message {
+  padding-right: 5px;
+  font-size: 14px;
+}
+
+.friends__right .fa-play {
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.friends__status .friends-message {
+  opacity: 0.5;
+  font-size: 14px;
+}
+
+.friends__status .friends-icon {
+  font-size: 20px;
+  margin-left: 2px;
+  opacity: 0.5;
+  cursor: pointer;
+}
