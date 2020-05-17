@@ -1,0 +1,2 @@
+# my kakaotalk
+ just practice
