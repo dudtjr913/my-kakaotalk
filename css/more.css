@@ -1,0 +1,116 @@
+.more .friend__me {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.more .me__my,
+.more .me__con {
+  border: 1px solid #c6c7c7;
+  border-radius: 50px;
+  padding: 3px 15px;
+  cursor: pointer;
+}
+
+.more__pay {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  background-color: lightgray;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.more__pay .more__pay-balance {
+  background-color: white;
+  border-radius: 50px;
+  padding: 3px 10px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.more__pay .more__pay-right span {
+  cursor: pointer;
+}
+
+.more__pay .more__pay-send,
+.more__pay .more__pay-payment {
+  padding-right: 7px;
+  margin-right: 7px;
+  border-right: 1px solid #c6c7c7;
+}
+
+.more__service .more__lists {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin: 20px 10px 0px 10px;
+}
+
+.more__service .more__lists i {
+  font-size: 26px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.more__service .more__list {
+  width: 80px;
+}
+
+.more__make {
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid #c6c7c7;
+  border-bottom: 1px solid #c6c7c7;
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+
+.more__make .more__make-name {
+  cursor: pointer;
+}
+
+.more__ad {
+  position: relative;
+}
+
+.more__ad img {
+  margin-top: 10px;
+  border-radius: 10px;
+  width: 100%;
+  height: 150px;
+  box-sizing: border-box;
+  border: 1px solid black;
+}
+
+.more__ad .more__ad-text {
+  font-size: 10px;
+  position: absolute;
+  right: 15px;
+  top: 20px;
+  color: white;
+  font-weight: 700;
+  background-color: black;
+  border-radius: 50px;
+  padding: 5px 10px;
+}
+
+.more__ad .more__ad-bottom {
+  font-weight: 600;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -20px;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.more__ad .more__ad-buy {
+  cursor: pointer;
+}

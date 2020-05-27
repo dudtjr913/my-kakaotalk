@@ -2,15 +2,21 @@
   display: flex;
 }
 
-.friend .me__content {
+.me__content {
   margin-left: 10px;
 }
 
-.friend .me__column {
+.me__column {
   display: flex;
   align-items: center;
 }
-.friend .large-img {
+
+.me__sub {
+  opacity: 0.5;
+  padding-top: 5px;
+}
+
+.large-img {
   width: 60px;
   border-radius: 25px;
 }
