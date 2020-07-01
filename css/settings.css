@@ -1,0 +1,36 @@
+.settings__top,
+.settings__mid {
+  border-bottom: 1px solid #c6c7c7;
+}
+
+.setting__columns .column-icon,
+.setting__columns .column-name {
+  cursor: pointer;
+}
+
+.setting-column {
+  font-size: 20px;
+  font-weight: 600;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  border-bottom: 1px solid #e1e2e2;
+}
+
+.setting-column:last-child {
+  border-bottom: none;
+  margin-bottom: 10px;
+}
+
+.setting-column:first-child {
+  margin-top: 10px;
+}
+
+.setting-column .column-icon {
+  margin-right: 15px;
+}
+
+.setting-column .column-sub {
+  margin-left: 40px;
+  opacity: 0.6;
+  font-size: 14px;
+}
